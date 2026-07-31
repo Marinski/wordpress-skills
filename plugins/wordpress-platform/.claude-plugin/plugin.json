@@ -2,7 +2,7 @@
   "name": "wordpress-platform",
   "description": "WordPress platform fundamentals and operations: core architecture and hooks, coding standards, installation/migration, multisite, content modeling, database design, performance optimization, and security hardening.",
   "version": "0.1.0",
-  "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
-  "homepage": "https://algotradingspace.com",
+  "author": { "name": "Marinski", "email": "stoyanovmarin@gmail.com" },
+  "homepage": "https://github.com/Marinski/wordpress-skills",
   "license": "MIT"
 }

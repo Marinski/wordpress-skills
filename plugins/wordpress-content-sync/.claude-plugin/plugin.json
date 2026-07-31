@@ -2,7 +2,7 @@
   "name": "wordpress-content-sync",
   "description": "Bidirectional WordPress content synchronization over the WP REST API with Application Password auth: pull posts/pages as markdown, push approved content as drafts, resolve categories/tags/CPT taxonomies, upload media, and manage SEO meta (Yoast/RankMath). Includes a reusable sync-posts.sh script.",
   "version": "0.1.0",
-  "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
-  "homepage": "https://algotradingspace.com",
+  "author": { "name": "Marinski", "email": "stoyanovmarin@gmail.com" },
+  "homepage": "https://github.com/Marinski/wordpress-skills",
   "license": "MIT"
 }

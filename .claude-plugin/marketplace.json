@@ -1,8 +1,8 @@
 {
   "name": "wordpress-skills",
   "owner": {
-    "name": "Algo Trading Space",
-    "url": "https://algotradingspace.com"
+    "name": "Marinski",
+    "url": "https://github.com/Marinski"
   },
   "description": "Claude Code agent skills for WordPress development and operations. Provides structured expertise for plugin and theme development, core platform concepts and hooks, REST API integration, database design, security hardening, performance optimization, and REST-based content synchronization.",
   "plugins": [
