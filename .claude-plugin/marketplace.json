@@ -1,0 +1,34 @@
+{
+  "name": "wordpress-skills",
+  "owner": {
+    "name": "Algo Trading Space",
+    "url": "https://algotradingspace.com"
+  },
+  "description": "Claude Code agent skills for WordPress development and operations. Provides structured expertise for plugin and theme development, core platform concepts and hooks, REST API integration, database design, security hardening, performance optimization, and REST-based content synchronization.",
+  "plugins": [
+    {
+      "name": "wordpress-platform",
+      "source": "./plugins/wordpress-platform",
+      "description": "WordPress platform fundamentals and operations: core architecture and hooks, coding and documentation standards, installation/migration/staging, multisite, content modeling (CPTs, taxonomies, meta), options and transients, database design with wpdb and custom tables, performance diagnosis and optimization, and security hardening (capabilities, sanitization, nonces, auth, backups).",
+      "license": "MIT",
+      "category": "wordpress",
+      "keywords": ["wordpress", "wp-core", "hooks", "multisite", "wpdb", "database", "performance", "caching", "security", "hardening", "nonces", "cpt", "taxonomy", "transients"]
+    },
+    {
+      "name": "wordpress-development",
+      "source": "./plugins/wordpress-development",
+      "description": "Building on WordPress: plugin development (foundations, lifecycle hooks, admin menus, settings pages, shortcodes, AJAX, cron, internationalization, WordPress.org release workflow), theme development (classic and block themes, template hierarchy, theme.json, patterns, Customizer, accessibility, theme review), and REST API integration (custom endpoints, controllers, schema, HTTP API clients, authentication, XML-RPC).",
+      "license": "MIT",
+      "category": "wordpress",
+      "keywords": ["wordpress", "plugin-development", "theme-development", "rest-api", "wp-rest", "block-theme", "theme.json", "shortcode", "wp_ajax", "cron", "wp-cli", "gutenberg"]
+    },
+    {
+      "name": "wordpress-content-sync",
+      "source": "./plugins/wordpress-content-sync",
+      "description": "Bidirectional WordPress content synchronization over the WP REST API using Application Password auth. Pull posts/pages as local markdown, push approved content back as drafts, resolve categories/tags/CPT taxonomies, upload media, and manage SEO meta (Yoast/RankMath). Includes a reusable sync-posts.sh script.",
+      "license": "MIT",
+      "category": "wordpress",
+      "keywords": ["wordpress", "content-sync", "rest-api", "markdown", "draft", "media-upload", "yoast", "rankmath", "seo", "application-password"]
+    }
+  ]
+}

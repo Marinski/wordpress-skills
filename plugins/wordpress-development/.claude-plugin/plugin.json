@@ -1,0 +1,8 @@
+{
+  "name": "wordpress-development",
+  "description": "Building on WordPress: plugin development (foundations, lifecycle, admin UI, shortcodes, AJAX, cron, i18n, release workflow), theme development (classic and block themes, templates, theme.json, patterns, accessibility), and REST API integration (endpoints, controllers, schema, HTTP clients, authentication).",
+  "version": "0.1.0",
+  "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
+  "homepage": "https://algotradingspace.com",
+  "license": "MIT"
+}
